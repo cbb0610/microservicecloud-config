@@ -29,4 +29,4 @@ eureka:
 spring:
   profiles:
     active: test
- ---
+---
