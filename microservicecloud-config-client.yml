@@ -1,4 +1,8 @@
 spring:
+  profiles:
+    active: dev
+---
+spring:
   cloud:
     config:
       name: microservicecloud-config-client #需要从github上读取的资源名称，注意没有yml后缀名
